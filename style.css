@@ -34,6 +34,7 @@ body {
 .container h2 {
     margin-top: 10px;
     margin-bottom: 10px;
+    color: #fff;
 }
 
 .input-box {
@@ -50,6 +51,7 @@ body {
 }
 
 input {
+    width: 180px;
     background: rgb(126, 120, 120);
     outline: none;
     border: none;

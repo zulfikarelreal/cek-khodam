@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background: url(images/background.jpg) no-repeat;
+    background-size: cover;
+    background-position: calc(center);
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 290px;
+    background: rgba(128, 128, 128, 0.26);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    padding: 5px 15px;
+    box-shadow: 0 0 15px rgba(245, 245, 245, 0.575);
+}
+
+.container h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 15px;
+}
+
+.input-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    background: rgb(126, 120, 120);
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    text-align: left;
+    padding: 5px 17px;
+    color: whitesmoke;
+    font-weight:500;
+}
+
+input::placeholder {
+    color: rgba(255, 211, 211, 0.89);
+    text-align: left;
+}
+
+button {
+    background: rgb(149, 149, 223);
+    position: absolute;
+    margin-left: 170px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 10px;
+    color: rgb(15, 0, 39);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+#result-text {
+    margin-top: 10px;
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    color: aqua;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-around;
+    width: 125px;
+}
+
+.social-media i {
+    align-items: center;
+    text-align: center;
+    margin-top: 5px;
+    color: aqua;
+    font-size: 25px;
+    border-radius: 50%;
+    text-shadow: 0 0 5px #ffffff4b;
+}
+
+.social-media i:hover {
+    transform: scale(1.2);
+}

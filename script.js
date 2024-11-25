@@ -10,6 +10,7 @@ let dataKhodam = [
   "windah botak",
   "kunti bogel",
   "roro jonggrang",
+  "buaya putih",
 ];
 
 // tombol cek akan bereaksi setelah di klik dengan function(e)
